@@ -11,7 +11,7 @@
  * 
  * @returns {Object}
  */
-function deepClone(obj) {
+const deepClone = (obj) => {
     if (obj === null || typeof obj !== 'object') {
         return obj;
     }
